@@ -1,0 +1,9 @@
+{
+  "rraven": {
+    "build": {
+      "postupdate": [
+        "update.sh"
+      ]
+    }
+  }
+}
