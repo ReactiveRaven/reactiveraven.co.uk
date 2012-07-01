@@ -1,5 +1,5 @@
 <VirtualHost *:80>
-	DocumentRoot /var/data/reactiveraven/site/root/public
+	DocumentRoot /var/data/reactiveraven/site/root/web
 	ServerName www.reactiveraven.co.uk
 	ServerAlias reactiveraven.co.uk
 
