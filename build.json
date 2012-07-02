@@ -2,7 +2,9 @@
   "rraven": {
     "build": {
       "postupdate": [
-        "./update.sh"
+        "./clear_cache.sh",
+        "./assetic_dump.sh",
+        "./permissions_fix.sh"
       ]
     }
   }
