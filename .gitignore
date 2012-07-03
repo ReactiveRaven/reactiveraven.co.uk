@@ -3,3 +3,4 @@ app/config/parameters.ini
 app/cache/*
 update.log
 app/logs/*
+web/css/*
