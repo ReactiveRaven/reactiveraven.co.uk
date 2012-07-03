@@ -12,7 +12,7 @@ group="`cat $DIR/vars/localgroup`";
 
 pushd "$DIR/../../";
 
-find . | grep -v "\.git" | while read line;
+find . \! -group www-data -o \! -user www-data | grep -v "\.git" | while read line;
 do
   chown -v $user:$group "$line";
 done;
