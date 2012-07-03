@@ -8,7 +8,7 @@ date;
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )";
 
-pushd "$DIR";
+pushd "$DIR/../../";
 
 php app/console assetic:dump --env=prod --no-debug; # write assets into real locations
 

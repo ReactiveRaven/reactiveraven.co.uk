@@ -2,33 +2,11 @@
 <html>
   <head>
     <title>ReactiveRaven.co.uk</title>
-    <style>
-      body
-      {
-        background: black;
-        color: white;
-      }
-      
-      a, a:visited, a:active
-      {
-        color: yellow;
-      }
-      
-      a:hover
-      {
-        color: white;
-      }
-      
-      .logo
-      {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 500px;
-        margin-left: -250px;
-        margin-top: -250px;
-      }
-    </style>
+    {% stylesheets
+      "@RRavenSiteBundle/Resources/public/css/*"
+    %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
   </head>
   <body>
     <img src="/images/rrlogowhite.png" class="logo" />

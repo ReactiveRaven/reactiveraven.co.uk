@@ -10,8 +10,11 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )";
 
 pushd "$DIR";
 
-chmod -R ugo+rw app/cache
-chmod -R ugo+rw app/logs
+chmod -R ugo+rw app/cache;
+chmod -R ugo+rw app/logs;
+chmod -R ugo+rw web/css;
+chmod -R ugo+rw web/js;
+chmod -R ugo+rw app/bootstrap.php.cache;
 
 popd;
 
