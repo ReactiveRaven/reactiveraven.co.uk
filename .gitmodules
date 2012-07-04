@@ -1,0 +1,3 @@
+[submodule "src/RRaven/SiteBundle/Resources/bootstrap"]
+	path = src/RRaven/SiteBundle/Resources/bootstrap
+	url = git@github.com:twitter/bootstrap.git
