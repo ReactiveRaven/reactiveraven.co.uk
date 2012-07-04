@@ -5,3 +5,4 @@ update.log
 app/logs/*
 web/css/*
 server/buildscripts/vars/*
+web/css/*

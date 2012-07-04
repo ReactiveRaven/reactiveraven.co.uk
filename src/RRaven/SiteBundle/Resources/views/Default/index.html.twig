@@ -3,7 +3,13 @@
   <head>
     <title>ReactiveRaven.co.uk</title>
     {% stylesheets
-      "@RRavenSiteBundle/Resources/public/css/*"
+      "@RRavenSiteBundle/Resources/bootstrap/less/bootstrap.less" 
+      filter="less"
+    %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+    {% stylesheets
+      "@RRavenSiteBundle/Resources/public/css/main.css"
     %}
     <link rel="stylesheet" href="{{ asset_url }}" />
     {% endstylesheets %}
