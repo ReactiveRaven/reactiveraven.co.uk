@@ -2,6 +2,10 @@
 	DocumentRoot /var/data/reactiveraven/site/root/web
 	ServerName www.reactiveraven.co.uk
 	ServerAlias reactiveraven.co.uk
+	ServerAlias *.gitpanel.com
+	ServerAlias gitpanel.com
+	ServerAlias *.gitpanel.co.uk
+	ServerAlias gitpanel.co.uk
 
 	CustomLog /var/data/reactiveraven/site/logs/apache/access combined
 	LogLevel info
