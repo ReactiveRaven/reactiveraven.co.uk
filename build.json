@@ -1,9 +1,15 @@
 {
   "rraven": {
-    "build": {
-      "postupdate": [
-        "./build.sh postupdate"
-      ]
+    "server": {
+      "apacheConfFile": "server/%%branch%%.conf",
+      "hooks": {
+        "postupdate": "./build.sh"
+      },
+      "configfiles": {
+        "app/config/parameters_default.ini": "app/config/parameters.ini",
+        "server/master_default.conf": "server/master.conf",
+        "server/staging_default.conf": "server/staging.conf"
+      }
     }
   }
 }
