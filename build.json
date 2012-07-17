@@ -3,7 +3,7 @@
     "server": {
       "apacheConfFile": "server/%%branch%%.conf",
       "hooks": {
-        "postupdate": "./build.sh"
+        "build": "./build.sh"
       },
       "configfiles": {
         "app/config/parameters_default.ini": "app/config/parameters.ini",
